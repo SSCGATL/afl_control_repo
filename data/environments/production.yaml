@@ -1,0 +1,5 @@
+---
+environment: 'production'
+afl_profiles::ntp::servers:
+  - 'time.nist.gov'
+  - 'pool.ntp.org'

@@ -1,0 +1,16 @@
+---
+classes: 'afl_roles::puppetboard'
+apache::mod::wsgi::wsgi_socket_prefix: '/var/run/wsgi'
+puppetboard::apache::vhost::vhost_name: 'puppetboard.alliancecontrolprogram.com'
+puppetboard::apache::vhost::port: 80
+puppetboard::enable_catalog: true
+puppetboard::groups: 'root'
+puppetboard::manage_git: true
+puppetboard::manage_virtualenv: true
+puppetboard::manage_selinux: false
+puppetboard::puppetdb_host: 'puppetdb.alliancecontrolprogram.com'
+puppetboard::puppetdb_port: 8081
+puppetboard::python_use_epel: false
+puppetboard::reports_count: 40
+python::dev: true
+selinux::mode: 'permissive'
