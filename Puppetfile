@@ -53,14 +53,14 @@
 # Server Roles
 mod 'afl_roles',
   :git => 'https://github.com/SSCGATL/afl_roles',
-  :ref => 'production'
+  :ref => 'development'
 
 # Server Profiles
 mod 'afl_profiles',
   :git => 'https://github.com/SSCGATL/afl_profiles',
-  :ref => 'production'
+  :ref => 'development'
 
 # CrowdStrike Module
 mod 'afl_crowdstrike',
   :git => 'https://github.com/SSCGATL/afl_crowdstrike',
-  :ref => 'production'
+  :ref => 'development'
